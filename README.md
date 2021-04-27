@@ -1,13 +1,13 @@
 # Preprpcessing Text Python
 Package
 
-This python package is prepared by YourName
+This python package is prepared by Tolulope
 
 Install 
 
-'pip install git+ssh://git@github.com/TolulopeOmo/Preprocess_TolulopeOmo.git'
+`pip install git+ssh://git@github.com//TolulopeOmo/Preprocess_TolulopeOmo.git`
 
 
 Uninstall
 
-'pip uninstall Preprocess_TolulopeOmo'
+`pip uninstall Preprocess_TolulopeOmo`
