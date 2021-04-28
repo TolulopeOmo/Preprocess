@@ -5,7 +5,7 @@ This python package is prepared by Tolulope
 
 Install 
 
-`pip install git+ssh://git@github.com//TolulopeOmo/Preprocess.git`
+`pip install git+https://github.com/TolulopeOmo/Preprocess.git`
 
 
 Uninstall
