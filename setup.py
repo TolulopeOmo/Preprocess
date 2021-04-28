@@ -6,7 +6,7 @@ with open('README.md', 'r') as file:
 
 
 setuptools.setup(
-	name = 'preprocess_`TolulopeOmo',  #this should be unit
+	name = 'Preprocess'  #this should be unit
 	version = '0.0.1' ,
 	author = 'Tolulope Omosefunmi',
 	author_email = omosefunmiblessing@gmail.com,
