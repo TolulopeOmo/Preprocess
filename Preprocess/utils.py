@@ -141,6 +141,9 @@ def _cont_exp(x):
 	'dis': 'this',
 	'bak': 'back',
 	'brng': 'bring'}
+    
+
+
     if type(x) is str:
 		for key in contractions:
 			value = contractions[key]
