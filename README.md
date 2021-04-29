@@ -1,5 +1,5 @@
-# Preprpcessing Text Python
-Package
+# Prepropcessing Text Python Package
+
 
 This python package is prepared by Tolulope
 
