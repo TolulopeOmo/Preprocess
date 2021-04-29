@@ -147,7 +147,7 @@ def _cont_exp(x):
 			value = contractions[key]
 			x = x.replace(key, value)
 		return x
-	else:
+	 else:
 		return x
 
 def _get_emails(x):
