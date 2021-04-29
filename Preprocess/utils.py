@@ -37,8 +37,8 @@ def _get_stopwords_counts(x):
 	return l
 
 def _get_hashtags_counts(x):
-    l = len([t for t in x.split() if t.startswith('#')])
-    return l
+	l = len([t for t in x.split() if t.startswith('#')])
+	return l
 
 
 def _get_mentions_counts(x):
@@ -142,8 +142,8 @@ def _cont_exp(x):
 	'bak': 'back',
 	'brng': 'bring'}
 
-         if type(x) is str:
-		for key in contractions:
+		if type(x) is str:
+		    for key in contractions:
 			value = contractions[key]
 			x = x.replace(key, value)
 		return x
