@@ -145,7 +145,7 @@ def _cont_exp(x):
 
 
     if type(x) is str:
-		for key in contractions:
+    	for key in contractions:
 			value = contractions[key]
 			x = x.replace(key, value)
 		return x
