@@ -143,12 +143,12 @@ def _cont_exp(x):
 	'brng': 'bring'}
 
 	if type(x) is str:
-	    for key in contractions:
-		    value = contractions[key]
+		for key in contractions:
+			value = contractions[key]
 			x = x.replace(key, value)
 		return x
 	else:
-	    return x
+		return x
 
 def _get_emails(x):
 	emails = re.findall(r'([a-z0-9+._-]+@[a-z0-9+._-]+\.[a-z0-9+_-]+\b)', x)
