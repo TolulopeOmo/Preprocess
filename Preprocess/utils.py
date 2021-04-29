@@ -141,13 +141,13 @@ def _cont_exp(x):
 	'dis': 'this',
 	'bak': 'back',
 	'brng': 'bring'}
-	if type(x) is str:
-		for key in contractions:
-			value = contractions[key]
-			x = x.replace(key, value)
-		return x
-	else:
-		return x
+if type(x) is str:
+    for key in contractions:
+		value = contractions[key]
+		x = x.replace(key, value)
+	return x
+else:
+	return x
    
 
 def _get_emails(x):
