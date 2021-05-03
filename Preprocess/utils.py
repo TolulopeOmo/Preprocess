@@ -165,11 +165,6 @@ def _remove_emails(x):
 
 
 
-def _remove_emails(x):
-	return re.sub(r'(([a-z0-9+._-]+@)[a-Z0-9+._-]+\.[a-z0-9+._-]+\)',"", x)
-
-
-
 def _get_urls(x):
 	urls = re.findall(r'(http|https|ftp|ssh)://([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:/~+#-]*[\w@?^=%&/~+#-])?', x)
 	counts = len(urls)
